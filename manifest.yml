@@ -1,0 +1,11 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: VisualRecogLivertyJavaApp
+  host: VisualRecogLivertyJavaApp
+  disk_quota: 1024M
+  services:
+  - Visual Recognition-ii
+  - availability-monitoring-auto
